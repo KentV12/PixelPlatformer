@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="PixelPlatformer"
-run/main_scene="res://scenes/game.tscn"
+run/main_scene="res://scenes/menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,7 +21,7 @@ Music="*res://scenes/music.tscn"
 
 [display]
 
-window/size/resizable=false
+window/stretch/mode="canvas_items"
 
 [input]
 
